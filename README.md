@@ -1,2 +1,2 @@
 # Azure CI/CD Pipelines
-This is a simple project shows CI/CD pipeline results
+This is a sample to learn and test Azure DevOps CI/CD Pipelines.
