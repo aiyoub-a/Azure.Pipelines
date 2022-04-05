@@ -10,12 +10,17 @@ As you know, Azure Pipelines is a method for automatically builds and tests code
 The starting point for configuring CI and CD for your applications is to have your source code in a version control system. Azure DevOps supports two forms of version control - GitHub and Azure Repos. Any changes you push to your version control repository will be automatically built and validated.
 
 
-## Requirement
+### Requirement
 To use Azure Pipelines, you need:
 - An organization in Azure DevOps.
 - Source code stored in a version control system like GitHub
 - YAML editor
- For more information see the link https://docs.microsoft.com/en-us/azure/devops/pipelines/get-started/yaml-pipeline-editor?view=azure-devops
+ For more information see the link [YAML](https://docs.microsoft.com/en-us/azure/devops/pipelines/get-started/yaml-pipeline-editor?view=azure-devops)
 
+### Automate tests, builds, and delivery
+**Continuous integration (CI)** automates _tests and builds_ for your project. CI helps to catch bugs or issues early in the development cycle, when they're easier and faster to fix. Items known as artifacts are produced from CI systems. They're used by the continuous delivery release pipelines to drive automatic deployments.
 
+**Continuous delivery (CD)** automatically _deploys and tests code_ in multiple stages to help drive quality. Continuous integration systems produce deployable artifacts, which include infrastructure and apps. Automated release pipelines consume these artifacts to release new versions and fixes to the target of your choice.
+
+![image](https://user-images.githubusercontent.com/102185699/161806519-bb43d643-97b4-4d3b-9ce3-e77b9aab9fa7.png)
 
