@@ -68,9 +68,11 @@ In this example we used YAML editor to create pipeline. Please take a look at be
 
  11. Final result
 
-    ![image](https://user-images.githubusercontent.com/102185699/162274386-755a5cb7-c357-4dfa-bc05-3b5f4a09d43c.png)
+    ![build-job](https://user-images.githubusercontent.com/102185699/162275121-86d4917a-7fda-4bb6-b9c1-9b02dca0027c.PNG)
+    
     Check build result like unit tests result
-    ![image](https://user-images.githubusercontent.com/102185699/162274928-6493e7fd-8fdf-4118-87cb-97a44322b139.png)
+
+    ![test-result](https://user-images.githubusercontent.com/102185699/162275058-6ae0383a-1e33-4500-be71-a895ed8eaa3e.png)
    
 For more details olease see [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/create-first-pipeline?view=azure-devops&tabs=net%2Ctfs-2018-2%2Cbrowser)
 
