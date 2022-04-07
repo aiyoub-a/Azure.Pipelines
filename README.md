@@ -33,14 +33,37 @@ To use Azure Pipelines, you need:
 
 In this example we used YAML editor to create pipeline. Please take a look at below step to create and config your pipeline:
  1. Sign in to your Azure DevOps organization and go to your project.
+    
+    ![image](https://user-images.githubusercontent.com/102185699/162272680-0c61f567-62c2-4841-a623-d8a768d23bf1.png)
+
  2. Go to Pipelines, and then select New pipeline.
+    
+    ![new-pipwline](https://user-images.githubusercontent.com/102185699/162272863-d3337db1-47a2-4346-8a12-189d550ad41a.png)
+
  3. Do the steps of the wizard by first selecting GitHub as the location of your source code.
+
+    ![connect-github](https://user-images.githubusercontent.com/102185699/162272947-3bb5be53-0e91-4b4b-a7e9-01cfdfa81b4f.png)
+
  4. You might be redirected to GitHub to sign in. If so, enter your GitHub credentials.
+
  5. When you see the list of repositories, select your repository.
+    
+    ![select-repo](https://user-images.githubusercontent.com/102185699/162273110-ce64fbf8-e247-4c4e-a59e-c47203573a43.png)
+
  6. You might be redirected to GitHub to install the Azure Pipelines app. If so, select Approve & install.
+ 
  7. Azure Pipelines will analyze your repository and recommend the ASP.NET Core pipeline template.
+
+    ![config-repo](https://user-images.githubusercontent.com/102185699/162273249-14d58a79-b2d5-4577-b90d-663c9f1187d7.png)
+    
  8. When your new pipeline appears, take a look at the YAML to see what it does. When you're ready, select Save and run.
+    
+    ![yaml](https://user-images.githubusercontent.com/102185699/162273379-562c4f26-7199-4478-865e-0601509f0cec.PNG)
+
  9. You're prompted to commit a new azure-pipelines.yml file to your repository. After you're happy with the message, select Save and run again.
+
+    ![run-yaml](https://user-images.githubusercontent.com/102185699/162273894-25a1a3a6-372a-4fda-8d05-1f0f7e18d6a3.PNG)
+   
  10. When you're ready to make changes to your pipeline, select it in the Pipelines page, and then Edit the azure-pipelines.yml file.
    
 more detail [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/create-first-pipeline?view=azure-devops&tabs=net%2Ctfs-2018-2%2Cbrowser)
