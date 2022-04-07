@@ -65,8 +65,12 @@ In this example we used YAML editor to create pipeline. Please take a look at be
     ![run-yaml](https://user-images.githubusercontent.com/102185699/162273894-25a1a3a6-372a-4fda-8d05-1f0f7e18d6a3.PNG)
    
  10. When you're ready to make changes to your pipeline, select it in the Pipelines page, and then Edit the azure-pipelines.yml file.
+
+ 11. Final result
+
+     ![image](https://user-images.githubusercontent.com/102185699/162274386-755a5cb7-c357-4dfa-bc05-3b5f4a09d43c.png)
    
-more detail [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/create-first-pipeline?view=azure-devops&tabs=net%2Ctfs-2018-2%2Cbrowser)
+For more details olease see [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/create-first-pipeline?view=azure-devops&tabs=net%2Ctfs-2018-2%2Cbrowser)
 
 
 ## Deploy ASP.NET Core web application with database on Azure Cloud
