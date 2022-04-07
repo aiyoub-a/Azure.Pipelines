@@ -2,7 +2,7 @@
 In this example I created a simple ASP.NET Core web application with .net 6 and SQL Server database to hold user data in my local computer. Then I show you how to create a pipeline for countinues integration and countinues delivery (CI/CD Pipeline) and finaly, you understand how to migrate a already web application with SQL data on Azure cloud step by step.
 
 ### Status
-[![Build Status](https://dev.azure.com/Aiyoub/Demo/_build?definitionId=3)](https://dev.azure.com/Aiyoub/Demo/_build?definitionId=3)
+[![Build Status](https://dev.azure.com/Aiyoub/AzurePipelines/_apis/build/status/aiyoub-a.Azure.Pipelines?branchName=Feature-A-documentation)](https://dev.azure.com/Aiyoub/AzurePipelines/_build/latest?definitionId=4&branchName=Feature-A-documentation)
 
 ## Azure CI/CD Pipeline for automation build, test and deployment
 As you know, Azure Pipelines is a method for automatically builds and tests code projects to make them available to others. It works with just about any language or project type. Azure Pipelines combines continuous integration (CI) and continuous delivery (CD) to test and build your code and ship it to any target. 
