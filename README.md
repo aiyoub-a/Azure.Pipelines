@@ -1,4 +1,5 @@
 # Create CI/CD Pipeline and Deploy an ASP.NET Core with SQL Server to Azure Cloud
+TEST
 In this example I created a simple ASP.NET Core web application with .net 6 and SQL Server database to hold user data in my local computer. Then I show you how to create a pipeline for countinues integration and countinues delivery (CI/CD Pipeline) and finaly, you understand how to migrate a already web application with SQL data on Azure cloud step by step.
 
 ### Status
